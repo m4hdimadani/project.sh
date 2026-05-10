@@ -8,6 +8,10 @@ a {
 
 .header {
   margin-bottom: 20px;
+  position: fixed;
+  background-color: #fff;
+  width: 100%;
+  top: 0;
 }
 
 .logo-title {
@@ -226,6 +230,52 @@ a {
   display: none;
 }
 
+.muiBox ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  list-style: none;
+}
+.muiBox ul li {
+  padding: 10px; 
+  flex: 1 1 calc(50% - 20px); 
+  max-width: 300px; 
+  text-align: center;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+ 
+}
+.imag-box {
+  width: 100%;
+  text-align: center;
+  background-color: #f9f9f9; 
+  border-radius: 8px; 
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+  transition: transform 0.2s ease-in-out; 
+  border: 5px solid rgb(211, 143, 8);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.imag-box:hover {
+  transform: translateY(-5px); 
+}
+
+.imag-box img {
+  max-width: 80px; 
+  height: auto;
+  margin-bottom: 10px;
+}
+.imag-box p {
+  font-family: YekanBakhHeavy;
+  font-weight: 900;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #333;
+}
+
 @media (max-width: 767px) {
   .navbar {
     position: relative;
@@ -439,6 +489,11 @@ a {
       transform: translateX(0);
     }
   }
+}
+
+.muiBox ul {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
