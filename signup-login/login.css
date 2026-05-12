@@ -1,0 +1,127 @@
+.login {
+  width: 30%;
+  height: 700px;
+  margin: auto;
+  margin-top: 8%;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
+}
+
+.login-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-title {
+  display: flex;
+  align-items: center;
+  color: rgb(235, 163, 20);
+  font-family: YekanBakhBold;
+  font-size: 25px;
+  margin-left: 60px;
+}
+.logo {
+  width: 85px;
+  height: 85px;
+  padding-left: 8px;
+}
+.part-logo a {
+  display: flex;
+  align-items: center;
+}
+.part-logo img {
+  width: 85px;
+  height: 85px;
+}
+.part-logo h1 {
+  display: flex;
+  align-items: center;
+  color: rgb(235, 163, 20);
+  font-family: YekanBakhBold;
+  font-size: 45px;
+  margin-left: 10px;
+}
+.part-logo span {
+  color: rgb(235, 163, 20);
+}
+
+.login-form {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.login-form h1 {
+  font-size: 1.8rem;
+  font-family: YekanBakhMedium;
+  font-weight: 100;
+}
+
+.login-form input {
+  width: 70%;
+  height: 70px;
+  border: none;
+  border: 1px solid #33333353;
+  border-radius: 10px;
+  outline: none;
+  font-size: 1.7rem;
+  padding-right: 20px;
+  font-family: YekanBakhMedium;
+  color: #2e2828;
+  margin-bottom: 80px;
+  margin-top: 20px;
+  
+}
+.login-form input:focus {
+  border: none;
+  border: 2px solid rgb(211, 143, 8);
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.login-button {
+  text-align: center;
+}
+
+.login-button p {
+  font-size: 1.3rem;
+  font-family: YekanBakhMedium;
+}
+
+.login-button p span {
+  color: rgb(211, 143, 8);
+  border-bottom: 1px solid rgb(211, 143, 8);
+  cursor: pointer;
+}
+
+.login-button button {
+  width: 70%;
+  height: 70px;
+  border: none;
+  font-size: 1.7rem;
+  font-family: YekanBakhMedium;
+  color: white;
+  background-color: rgb(230, 156, 9);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.login-button button:hover {
+    background-color: rgb(181, 123, 7);
+}
+
+.login-one {
+    text-align: end;
+    width: 85%;
+    margin-top: 40px;
+    padding-bottom: 60px;
+}
+
+.login-one a {
+    text-decoration: none;
+    font-family: YekanBakhMedium;
+    font-size: 1.3rem;
+    color: #2e2828;
+}

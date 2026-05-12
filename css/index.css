@@ -163,6 +163,9 @@ a {
   border-width: 1.5px;
   border-radius: 8px;
 }
+.button-login a {
+  color: white;
+}
 
 .button-login:hover {
   background-color: rgb(194, 135, 16);
