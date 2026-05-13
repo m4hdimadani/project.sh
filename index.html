@@ -46,7 +46,7 @@
                     <a href="/"><p>سوالات متداول</p></a>
                   </li>
                   <li>
-                    <a href="/"><p>ارتباط با ما</p></a>
+                    <a href="#footer"><p>ارتباط با ما</p></a>
                   </li>
                 </ul>
               </div>
@@ -88,7 +88,7 @@
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="#footer">
                   <p>ارتباط با ما</p>
                 </a>
               </li>
@@ -114,16 +114,20 @@
           <h1>همین الان <span>رزرو</span> کن</h1>
         </div>
         <div class="search">
-          <div>
-            <input
-              type="text"
-              placeholder="دنبال چه فضایی میگردی؟"
-              class="search-input"
-            />
-          </div>
-          <div>
-            <button type="submit" class="search-button">جستجو</button>
-          </div>
+          <form id="searchForm">
+            <div>
+              <input
+                type="text"
+                placeholder="دنبال چه فضایی میگردی؟"
+                class="search-input"
+                id="searchInput"
+              />
+            </div>
+            <div>
+              <button type="submit" class="search-button">جستجو</button>
+            </div>
+            <div id="resul"></div>
+          </form>
         </div>
       </div>
       <div>
@@ -226,8 +230,8 @@
       </div>
       <!-- Box end -->
       <!-- footer start -->
-      <footer>
-        <div class="footer">
+      <footer id="footer">
+        <div class="footer" >
           <div class="footer-one">
             <div class="part-phone">
               <img src="./image/phone.png" alt="phone" />

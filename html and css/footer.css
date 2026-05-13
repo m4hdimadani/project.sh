@@ -1,0 +1,443 @@
+
+.footer {
+    background-color: rgba(211, 143, 8, 0.346);
+  }
+  
+  .footer-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .part-phone {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 8px;
+  }
+  .part-phone img {
+    width: 50px;
+  }
+  .part-phone p {
+    font-family: iranyekanwebmedium;
+    font-size: 1.2rem;
+  }
+  
+  .part-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .part-socialMedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .part-socialMedia img {
+    width: 60px;
+    cursor: pointer;
+  }
+  
+  .footer-one {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    border-bottom: 2px solid #3333333c;
+  }
+  
+  .scpace-part-tow {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+  }
+  
+  .scpace-part-tow ul li {
+    list-style: none;
+    font-family: YekanBakhMedium;
+    font-weight: 100;
+    font-size: 1.2rem;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    text-align: start;
+  }
+  
+  .scpace-part-tow h1 {
+    text-align: start;
+    font-family: iranyekanwebregular;
+    font-weight: 700;
+    margin-bottom: 30px;
+    font-size: 1.4rem;
+  }
+  
+  .contact ul li {
+    list-style: none;
+  }
+  .contact ul li a {
+    color: #333;
+  }
+  
+  .footer-end {
+    text-align: center;
+    font-family: iranyekanwebmedium;
+    font-size: 1rem;
+    font-weight: 100;
+    color: #33333398;
+    margin-top: 100px;
+  }
+  .footer-end span {
+    color: rgb(211, 143, 8);
+    font-size: 1.4rem;
+  }
+
+  @media (max-width: 767px) {
+    .navbar {
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0px 15px;
+      height: 60px;
+    }
+  
+    .mobile-nav-container {
+      display: flex;
+      position: absolute;
+      right: 15px;
+      bottom: 0px;
+      cursor: pointer;
+    }
+  
+    .menu-toggle {
+      display: block;
+    }
+  
+    .ul-navbar {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      position: absolute;
+      top: 70px;
+      left: 0;
+      background-color: white;
+      padding: 10px 0;
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+      gap: 15px;
+    }
+  
+    .ul-navbar.active {
+      display: flex;
+    }
+  
+    .ul-navbar li {
+      margin: 5px 0;
+      font-size: 1.1rem;
+      text-align: center;
+    }
+  
+    .logo-title {
+      z-index: 1000;
+      position: absolute;
+      left: 50%;
+      bottom: 0px;
+      transform: translateX(-50%);
+      margin: 0;
+      font-size: 18px;
+    }
+    .logo {
+      width: 40px;
+      height: 40px;
+    }
+  
+    .button-login {
+      width: 100%;
+      margin: 15px auto;
+      font-size: 1rem;
+    }
+  
+    .slid-menu {
+      display: block;
+      position: fixed;
+      top: 0;
+      right: 0;
+      width: 70%;
+      height: 100%;
+      background-color: #f8f9fa;
+      transform: translateX(100%);
+      transition: transform 0.3s ease-in-out;
+      z-index: 1000;
+      box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+      overflow-y: auto;
+      border-top-left-radius: 40px;
+      border-bottom-left-radius: 40px;
+    }
+    .slid-menu:active {
+      transform: translateX(0);
+    }
+    .slid-menu-content {
+      padding: 20px;
+    }
+    .slid-menu-content ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .slid-menu-content ul li {
+      margin-bottom: 15px;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 10px;
+    }
+    .side-menu-content ul li a {
+      text-decoration: none;
+      color: #333;
+      font-size: 16px;
+      display: block;
+      padding: 5px 0;
+    }
+    .side-menu-content ul li a:hover {
+      color: rgb(211, 143, 8);
+    }
+    .slid-menu-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 999;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+    }
+    .slid-menu-overlay.active {
+      opacity: 1;
+      visibility: visible;
+    }
+  
+    .cross-icon {
+      width: 100%;
+      text-align: left;
+      padding: 25px 0;
+    }
+    .cross-icon img {
+      width: 20px;
+      margin-left: 30px;
+      cursor: pointer;
+    }
+  
+    .landing-img {
+      padding: 6rem 0;
+      background-attachment: scroll;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .landing-img h1 {
+      font-size: 1.1rem;
+      margin: 0 10px;
+      line-height: 35px;
+      text-align: center;
+    }
+  
+    .landing-img h1 span {
+      font-size: 2rem;
+    }
+  
+    .search form{
+      flex-direction: column;
+      gap: 10px;
+      width: 90%;
+      margin: 15px auto;
+      align-items: center;
+    }
+  
+    .search-input {
+      width: 100%;
+      height: 45px;
+      font-size: 0.9rem;
+    }
+  
+    .search-button {
+      width: 100%;
+      height: 55px;
+      font-size: 0.9rem;
+      padding: 10px;
+    }
+  
+    #hover-navbar {
+      width: 100%;
+      text-align: center;
+    }
+    #hover-navbar .list p {
+      font-size: 1.3rem;
+    }
+    .product-menu {
+      display: none !important;
+    }
+    .product-menu .show-menu {
+      flex-direction: column;
+      gap: 8px;
+      align-items: center;
+      position: static;
+      box-shadow: none;
+      background-color: transparent;
+      min-width: unset;
+      padding: 5px 0;
+      right: auto;
+      text-align: center;
+    }
+    .product-menu .show-menu a {
+      padding: 5px;
+      width: auto;
+      text-align: center;
+    }
+  
+    .show-hamburger-menu {
+      animation: fadeInDown 0.35s forwards;
+    }
+    @keyframes fadeInDown {
+      0% {
+        opacity: 0;
+        transform: translateX(-100%);
+      }
+      100% {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+    .footer-one {
+      flex-direction: column;
+      align-items: center;
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+    .part-phone,
+    .part-logo,
+    .part-socialMedia {
+      margin-bottom: 20px;
+      width: 90%;
+      justify-content: center;
+    }
+    .part-socialMedia img {
+      width: 50px;
+    }
+    .part-phone p {
+      font-size: 1rem;
+    }
+    .scpace-part-tow {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+    .scpace-part-tow h1,
+    .scpace-part-tow ul li {
+      text-align: center;
+      padding-left: 0;
+    }
+    .scpace-part-tow ul {
+      padding-right: 0;
+    }
+    .footer-end {
+      margin-top: 50px;
+      font-size: 0.9rem;
+    }
+    .footer-end span {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .navbar {
+      justify-content: space-between;
+      padding: 0 20px;
+    }
+    .ul-navbar {
+      gap: 24px;
+    }
+    .ul-navbar li {
+      font-size: 1rem;
+    }
+    .logo-title {
+      font-size: 15px;
+      margin-left: 0px;
+    }
+    .logo {
+      width: 40px;
+      height: 40px;
+    }
+    #hover-navbar .list p {
+      font-size: 1.5rem;
+    }
+    .button-login {
+      width: 100px;
+      height: 50px;
+      text-align: center;
+      font-size: 0.9rem;
+      margin-right: 9px;
+    }
+    .product-menu {
+      right: -278px;
+      top: 110%;
+    }
+    .landing-img {
+      padding: 10rem 0;
+      background-attachment: scroll;
+      flex-direction: column;
+      align-items: center;
+    }
+    .landing-img h1 {
+      font-size: 1.3rem;
+      margin-right: 20px;
+      line-height: 45px;
+      text-align: center;
+    }
+    .landing-img h1 span {
+      font-size: 1.5rem;
+    }
+    .search form{
+      flex-direction: column;
+      gap: 15px;
+      align-items: center;
+      width: 80%;
+      margin: 0 auto;
+    }
+    .search-input {
+      width: 100%;
+      height: 50px;
+      font-size: 1.1rem;
+      margin-left: 100px;
+    }
+    .search-button {
+      width: 150%;
+      height: 60px;
+      font-size: 1rem;
+    }
+    .part-phone,
+    .part-logo,
+    .part-socialMedia {
+      margin: 10px;
+    }
+    .part-logo span {
+      display: none;
+    }
+    .scpace-part-tow {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .By-region,
+    .By-city,
+    .By-range,
+    .contact {
+      flex-basis: 45%;
+      margin: 10px;
+      text-align: center;
+    }
+    .scpace-part-tow h1,
+    .scpace-part-tow ul li {
+      text-align: center;
+      padding-left: 0;
+    }
+    .footer-end {
+      margin-top: 70px;
+    }
+  }
+  

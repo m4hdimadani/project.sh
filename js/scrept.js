@@ -30,3 +30,6 @@ menuToggle.addEventListener("click", function () {
 closeBtn.addEventListener("click", function () {
   slidMenu.classList.remove("active");
 });
+
+// ----------------------------------------------
+
