@@ -19,6 +19,7 @@ html {
   background-color: #fff;
   width: 100%;
   top: 0;
+  z-index: 10000;
 }
 
 .logo-title {
@@ -395,6 +396,160 @@ html {
   color: rgb(211, 143, 8);
   font-size: 1.4rem;
 }
+
+/* main start */
+
+.container-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.start {
+  margin-top: 200px;
+  margin-bottom: -100px;
+  margin-right: 200px;
+ 
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 2px solid #a5bbe9;
+  width: 90%;
+  padding-bottom: 30px;
+}
+.title p {
+  font-size: 1.3rem;
+  font-family: YekanBakhMedium;
+}
+
+.title img {
+  width: 30px;
+}
+
+.main-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px; 
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.main {
+  margin: 100px;
+}
+.main a {
+  color: black;
+}
+
+.main-sandeli {
+  width: 110%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.main-sandeli-img {
+  text-align: center;
+  position: relative;
+}
+.main-sandeli-img img {
+  border-radius: 10px;
+}
+.main-sandeli-img p {
+  position: absolute;
+  background-color: rgb(61, 174, 163);
+  color: white;
+  padding: 10px 8px;
+  border-bottom-left-radius: 6px;
+  border-top-right-radius: 6px;
+  top: 240px;
+  left: 8%;
+  font-family: iranyekanwebmedium;
+}
+.main-sandeli-img span {
+  position: absolute;
+  background-color: rgba(254, 149, 37, 0.8);
+  backdrop-filter: blur(6px);
+  color: white;
+  padding: 10px 8px;
+  border-bottom-left-radius: 6px;
+  border-top-right-radius: 6px;
+  top: 250px;
+  left: 8%;
+  font-family: iranyekanwebmedium;
+}
+
+.main-sandeli-title {
+  padding-right: 10px;
+}
+
+.main-sandeli-title h1 {
+  font-size: 1.4rem;
+  font-family: iranyekanwebmedium;
+  font-weight: 700;
+  padding-top: 20px;
+}
+
+.main-sandeli-title-tow {
+  font-family: iranyekanwebregular;
+  padding-top: 8px;
+  color: rgb(5, 5, 162);
+}
+
+.main-sandeli-title-three {
+  font-family: iranyekanwebregular;
+  font-size: 1.2rem;
+  font-weight: 100;
+  display: flex;
+  gap: 10px;
+  padding-top: 8px;
+}
+.main-sandeli-title-three span {
+  color: rgb(197, 5, 5);
+}
+
+.main-sandeli-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-right: 10px;
+}
+.main-sandeli-price p {
+  font-family: iranyekanwebregular;
+  font-size: 1.1rem;
+}
+.main-sandeli-price p span {
+  text-decoration: line-through red;
+  color: gray;
+}
+
+.main-sandeli-price h3 {
+  font-family: iranyekanwebmedium;
+  font-weight: 600;
+}
+
+.main-sandeli-price-one {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.main-sandeli-price-tow {
+  margin-left: 20px;
+  padding: 10px 15px;
+  border-radius: 20px;
+  background-color: rgb(217, 6, 6);
+  color: white;
+}
+
+/* main end */
 
 @media (max-width: 767px) {
   .navbar {
