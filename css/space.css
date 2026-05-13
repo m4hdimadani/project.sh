@@ -1,4 +1,28 @@
-.main-box  {
+.start {
+  margin-top: 200px;
+  margin-bottom: -100px;
+  margin-right: 200px;
+ 
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 2px solid #a5bbe9;
+  width: 90%;
+  padding-bottom: 30px;
+}
+.title p {
+  font-size: 1.3rem;
+  font-family: YekanBakhMedium;
+}
+
+.title img {
+  width: 30px;
+}
+
+.main-box {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -10,10 +34,10 @@
   margin: 100px;
 }
 .main a {
-    color: black;
+  color: black;
 }
 
-.main-sandeli  {
+.main-sandeli {
   width: 110%;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   padding-top: 10px;
