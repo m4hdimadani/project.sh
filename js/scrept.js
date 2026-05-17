@@ -33,3 +33,17 @@ closeBtn.addEventListener("click", function () {
 
 // ----------------------------------------------
 
+let accButtons = document.querySelectorAll(".accordion-button");
+
+accButtons.forEach((button) => {
+  button.addEventListener("click", function () {
+    this.parentElement.classList.toggle("active");
+
+    let content = this.nextElementSibling;
+    if (this.parentElement.classList.content("active")) {
+      content.style.maxHeight = null;
+    }
+  });
+});
+
+// ------------------------------------------------
