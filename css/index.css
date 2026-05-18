@@ -615,12 +615,130 @@ html {
 }
 
 .date {
-  background-color: gray;
+  background-color: white;
   width: 70%;
-  height: 50%;
+  height: auto;
   margin-top: 100px;
-
+  margin-right: 50px;
+  border: 2px solid rgba(128, 128, 128, 0.332);
+  border-radius: 20px;
+  padding-bottom: 30px;
 }
+
+.filter-img {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.filter-img img {
+  width: 50px;
+  margin-right: 10px;
+}
+.filter-img h1 {
+  font-size: 1.5rem;
+  font-family: iranyekanwebmedium;
+  font-weight: 500;
+}
+
+.addres {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 60px;
+  background-color: #fff;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  outline: none;
+  transition: background-color 0.3s ease;
+  position: relative;
+  font-family: YekanBakhMedium;
+  padding: 30px 20px;
+  border-bottom: 2px solid rgba(128, 128, 128, 0.265);
+}
+.addres img {
+  width: 30px;
+}
+.addres h1 {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+.dropdown {
+  margin-top: 8px;
+  margin-bottom: 20px;
+  display: none;
+  
+}
+.checkbox-menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 30px;
+  margin-right: 80px;
+}
+.checkbox-menu input[type="checkbox"]{
+  width: 22px;
+  height: 22px;
+  accent-color: rgba(254, 149, 37, 0.8);             
+}
+.checkbox-menu p {
+  font-size: 1.1rem;
+  font-family: iranyekanwebmedium;
+}
+.dropdown.active {
+  display: block;
+  animation: fadeIn 0.3s ease;
+}
+.addres.active img {
+  transform: rotate(180deg);
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-5px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
+.dropdown-tow{
+  margin-top: 8px;
+  margin-bottom: 20px;
+  display: none;
+}
+.dropdown-tow.active {
+  display: block;
+  animation: fadeIn 0.3s ease;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-5px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.button-filter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+.button-filter button {
+  width: 80%;
+  height: 48px;
+  border: none;
+  background-color:  rgb(254, 149, 37);
+  color: #fff;
+  font-size: 1.1rem;
+  font-family: iranyekanwebmedium;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.button-filter button:hover {
+  background-color:  rgb(194, 111, 21);
+}
+
+
+
 /* ///////////////////////////////////////// */
 .pay {
   margin-top: 50px;
@@ -1078,6 +1196,8 @@ html {
     height: auto;
     min-height: 300px;
     width: 100%;
+    margin: auto;
+    margin-top: 50px;
   }
   .pay {
     flex-direction: column; 

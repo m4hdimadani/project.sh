@@ -33,3 +33,21 @@ accButtons.forEach((button) => {
 });
 
 // ------------------------------------------------
+const toggleButton = document.getElementById('toggleButton');
+const dropdownMenu = document.getElementById('dropdownMenu');
+
+toggleButton.addEventListener('click', () => {
+  dropdownMenu.classList.toggle('active');
+  toggleButton.classList.toggle('active');
+});
+
+const toggleButtonTow = document.getElementById('toggleButtonTow');
+const dropdownMenuTow = document.getElementById('dropdownMenuTow');
+
+toggleButtonTow.addEventListener('click', () => {
+  dropdownMenuTow.classList.toggle('active');
+  toggleButtonTow.classList.toggle('active');
+});
+
+
+// --------------------------------------------------
