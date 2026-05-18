@@ -19,7 +19,7 @@
   }
   .part-phone p {
     font-family: iranyekanwebmedium;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   
   .part-logo {
@@ -34,7 +34,7 @@
     align-items: center;
   }
   .part-socialMedia img {
-    width: 60px;
+    width: 40px;
     cursor: pointer;
   }
   
@@ -54,7 +54,7 @@
     list-style: none;
     font-family: YekanBakhMedium;
     font-weight: 100;
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding-bottom: 20px;
     padding-left: 20px;
     text-align: start;
@@ -65,7 +65,7 @@
     font-family: iranyekanwebregular;
     font-weight: 700;
     margin-bottom: 30px;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
   }
   
   .contact ul li {
@@ -85,7 +85,7 @@
   }
   .footer-end span {
     color: rgb(211, 143, 8);
-    font-size: 1.4rem;
+    font-size: 1rem;
   }
 
   @media (max-width: 767px) {

@@ -175,6 +175,72 @@ html {
   background-color: rgb(194, 135, 16);
 }
 
+/* ---------------------------------------------- */
+.hamburger-icon  {
+  width: 27px;
+  display: none;
+  cursor: pointer;
+}
+.hamburger-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #fff;
+  z-index: 100;
+  width: 100%;
+  font-family: YekanBakhBold;
+  transform: translateX(100%);
+}
+.cross-icon {
+  width: 100%;
+  text-align: left;
+  padding: 25px 0;
+  cursor: pointer;
+}
+.cross-icon img {
+  width: 20px;
+  margin-left: 30px;
+}
+.hamburger-menu-items {
+  padding: 10px 30px;
+}
+.hamburger-menu-items ul {
+  list-style: none;
+}
+.hamburger-menu-items a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  padding: 3px 0;
+}
+.hamburger-menu-items ul li:hover {
+  background-color: rgba(255, 171, 3, 0.099);
+  border-radius: 10px;
+  
+}
+.hamburger-menu-items div {
+  height: 1px;
+  color: #dfe1e4;
+  width: 90%;
+  margin: 8px 0;
+}
+.show-hamburger-menu {
+  animation:  fadeindown 0.35s forwards;
+}
+
+@keyframes fadeindown {
+  0% {
+      opacity: 0;
+      transform: translateX(100%);
+  }
+  100% {
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+
+/* ---------------------------------------------- */
+
 .landing-img {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(../image/landing-hero2.avif) no-repeat;
@@ -212,7 +278,7 @@ html {
 }
 .search-input {
   width: 558px;
-  height: 60px;
+  height: 40px;
   padding: 10px;
   border-radius: 10px;
   font-size: 25px;
@@ -230,7 +296,7 @@ html {
 
 .search-button {
   width: 137px;
-  height: 80px;
+  height: 60px;
   border-radius: 10px;
   background-color: rgb(235, 163, 20);
   color: white;
@@ -324,11 +390,11 @@ html {
   gap: 8px;
 }
 .part-phone img {
-  width: 50px;
+  width: 40px;
 }
 .part-phone p {
   font-family: iranyekanwebmedium;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .part-logo {
@@ -343,7 +409,7 @@ html {
   align-items: center;
 }
 .part-socialMedia img {
-  width: 60px;
+  width: 40px;
   cursor: pointer;
 }
 
@@ -363,7 +429,7 @@ html {
   list-style: none;
   font-family: YekanBakhMedium;
   font-weight: 100;
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding-bottom: 20px;
   padding-left: 20px;
   text-align: start;
@@ -374,7 +440,7 @@ html {
   font-family: iranyekanwebregular;
   font-weight: 700;
   margin-bottom: 30px;
-  font-size: 1.4rem;
+  font-size: 1.1rem;
 }
 
 .contact ul li {
@@ -394,7 +460,7 @@ html {
 }
 .footer-end span {
   color: rgb(211, 143, 8);
-  font-size: 1.4rem;
+  font-size: 1rem;
 }
 
 /* main start */
@@ -658,6 +724,14 @@ html {
 /* main end */
 
 @media (max-width: 767px) {
+ 
+  .hamburger-icon  {
+    display: block;
+    position: absolute;
+    right: 10px;
+    bottom: 15px;
+
+  }
   .navbar {
     position: relative;
     display: flex;
