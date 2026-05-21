@@ -1,0 +1,570 @@
+.sandali {
+    margin-top: 100px;
+  }
+  
+  .start-title {
+    display: flex;
+    gap: 20px;
+    margin-right: 200px;
+  }
+  
+  .start-title-one {
+    display: flex;
+    gap: 5px;
+  }
+  .start-title-one p {
+    font-size: 12px;
+    font-family: iranyekanwebregular;
+  }
+  /* ---------------------------------- */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 250px;
+  }
+  
+  .img-start {
+    margin-right: 30px;
+    margin-top: 20px;
+  }
+  
+  .img-start img {
+    width: 993px;
+    border-radius: 20px;
+  }
+  
+  .img-start-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .img-start-title-one {
+    font-family: iranyekanwebmedium;
+    font-size: 0.8rem;
+  }
+  .img-start-title-one h1 {
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+      border-bottom: 1px solid rgba(128, 128, 128, 0.441);
+  }
+  .img-start-title-one h3 {
+      font-size: 1.2rem;
+      color: rgb(91, 96, 171);
+      padding-bottom: 60px;
+  }
+  
+  .img-start-title-button {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 120px;
+  }
+  .img-start-title-button button {
+      width: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1px 70px;
+      border-radius: 10px;
+      border: 3px solid orange;
+      background-color: white;
+      cursor: pointer;
+      gap: 10px;
+  }
+  .img-start-title-button button:hover {
+      background-color: rgb(235, 233, 233);
+  }
+  
+  .img-start-title-button img {
+    width: 35px;
+    height: 35px;
+  }
+  .img-start-title-button p {
+      font-size: 1.1rem;
+      font-family: iranyekanwebmedium;
+  }
+  .img-start-title-button .img-start-title-button-one {
+      width: 160px;
+      padding: 5px;
+  }
+  
+  .img-start-title-button .img-start-title-button-tow {
+      width: 200px;
+      padding: 5px;
+  }
+  
+  .title-location {
+    font-family: iranyekanwebregular;
+    font-size: 0.8rem;
+  }
+  .title-location h1 {
+    padding-bottom: 10px;
+  }
+  .title-location p {
+    font-size: 1.1rem;
+    font-family: iranyekanwebmedium;
+    color: rgb(91, 96, 171);
+    padding-bottom: 30px;
+  }
+  
+  .title-phone {
+    font-family: iranyekanwebregular;
+    font-size: 0.8rem;
+  }
+  .title-phone h1 {
+    padding-bottom: 10px;
+  }
+  .title-phone p {
+    font-size: 1.1rem;
+    font-family: iranyekanwebmedium;
+    color: rgb(91, 96, 171);
+    padding-bottom: 30px;
+  }
+  
+  
+  /* ----------------------------------------------- */
+  .price {
+    width: 550px;
+    height: 800px;
+    background-color: rgba(128, 128, 128, 0.097);
+    margin-left: 30px;
+    border-radius: 20px;
+  }
+  
+  .img-start-title-price {
+    font-family: iranyekanwebmedium;
+    font-size: 0.8rem;
+    padding: 20px;
+  }
+  
+  .img-start-title-price h1 {
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.441);
+  }
+  
+  .img-start-title-price h3 {
+    font-size: 1.2rem;
+    color: rgb(91, 96, 171);
+    padding-bottom: 60px;
+  }
+  
+  /* --------------------- */
+  .price-total {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  .addres{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.255);
+    cursor: pointer;
+    gap: 10px;
+    font-family: YekanBakhHeavy;
+    font-weight: 100;
+    font-size: .6rem;
+    margin-right: 20px;
+    border-radius: 10px;
+  }
+  .addres:hover {
+    background-color: rgba(128, 128, 128, 0.255);
+  }
+  .addres img {
+    width: 30px;
+  }
+  
+  .total-counter {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .total-img {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .total-img img {
+    width: 50px;
+  }
+  .total-img p {
+    font-size: 1.1rem;
+    font-family: YekanBakhHeavy;
+  }
+  
+  .counter{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:15px;
+  }
+  
+  .counter button{
+    width:45px;
+    height:45px;
+    border:none;
+    border-radius:50%;
+    font-size:30px;
+    cursor:pointer;
+    background:orange;
+    color:white;
+  }
+  
+  .counter span{
+    font-size:18px;
+    min-width:25px;
+    text-align:center;
+  }
+  
+  .main-sandeli-price {
+    margin-top: 50px;
+    padding-bottom: 30px;
+    width: 500px;
+    margin-right: 25px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.222);
+  }
+  
+  .main-sandeli-price-one {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    
+  }
+  .main-sandeli-price-one p {
+    font-size: 1.1rem;
+    font-family: iranyekanwebmedium;
+  }
+  
+  .main-sandeli-price-tow {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .main-sandeli-price-tow p {
+    padding: 8px 12px;
+    border-radius: 20px;
+    background-color: rgb(217, 6, 6);
+    color: white;
+  }
+  .main-sandeli-price-tow span {
+    text-decoration: line-through red;
+    color: gray;
+  }
+  
+  .final-price {
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    margin-top: 30px;
+  }
+  
+  .final-price-p {
+    font-size: 1.1rem;
+    font-family: iranyekanwebmedium;
+  }
+  .totalPrice {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .button-rezerv {
+    margin-top: 250px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   
+  }
+  
+  .button-rezerv button {
+    width: 90%;
+   height: 50px;
+   border-radius: 10px;
+   border: none;
+   background-color: orange;
+   cursor: pointer;
+   font-size: 1.3rem;
+   font-family: YekanBakhBold;
+   color: white;
+  }
+  .button-rezerv button:hover {
+    background-color: rgb(209, 137, 4);
+  }
+  
+  /* ---------------------------------------------------- */
+  
+  /* =========================
+     Mobile: max-width 767px
+  ========================= */
+  @media (max-width: 767px) {
+    .sandali {
+      margin-top: 40px;
+    }
+  
+    .start-title {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-right: 15px;
+      margin-left: 15px;
+    }
+  
+    .start-title-one p {
+      font-size: 11px;
+    }
+  
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 30px;
+      padding: 0 15px;
+    }
+  
+    .img-start {
+      margin-right: 0;
+      margin-top: 10px;
+      width: 100%;
+    }
+  
+    .img-start img {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      border-radius: 14px;
+    }
+  
+    .img-start-title {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 20px;
+      margin-top: 20px;
+    }
+  
+    .img-start-title-one {
+      width: 100%;
+      font-size: 0.75rem;
+    }
+  
+    .img-start-title-one h1 {
+      font-size: 1rem;
+      padding-bottom: 8px;
+      margin-bottom: 14px;
+    }
+  
+    .img-start-title-one h3 {
+      font-size: 1rem;
+      padding-bottom: 20px;
+    }
+  
+    .img-start-title-button {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-bottom: 40px;
+    }
+  
+    .img-start-title-button button {
+      width: auto;
+      padding: 6px 14px;
+      border-radius: 10px;
+      border: 2px solid orange;
+    }
+  
+    .img-start-title-button img {
+      width: 28px;
+      height: 28px;
+    }
+  
+    .img-start-title-button p {
+      font-size: 0.9rem;
+    }
+  
+    .img-start-title-button .img-start-title-button-one,
+    .img-start-title-button .img-start-title-button-tow {
+      width: auto;
+      padding: 6px 12px;
+    }
+  
+    .title-location,
+    .title-phone {
+      width: 100%;
+      font-size: 0.75rem;
+    }
+  
+    .title-location h1,
+    .title-phone h1 {
+      font-size: 1rem;
+    }
+  
+    .title-location p,
+    .title-phone p {
+      font-size: 0.95rem;
+      padding-bottom: 18px;
+    }
+  
+    .price {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 50px;
+      margin-left: 0;
+      padding-bottom: 20px;
+      border-radius: 14px;
+    }
+  
+    .img-start-title-price {
+      padding: 16px;
+    }
+  
+    .img-start-title-price h1 {
+      font-size: 1rem;
+      padding-bottom: 8px;
+      margin-bottom: 14px;
+    }
+  
+    .img-start-title-price h3 {
+      font-size: 1rem;
+      padding-bottom: 20px;
+    }
+  }
+  
+  /* =========================
+     Tablet: 768px to 1023px
+  ========================= */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .sandali {
+      margin-top: 70px;
+    }
+  
+    .start-title {
+      gap: 14px;
+      margin-right: 60px;
+    }
+  
+    .start-title-one p {
+      font-size: 11px;
+    }
+  
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 40px;
+      padding: 0 30px;
+    }
+  
+    .img-start {
+      margin-right: 0;
+      margin-top: 15px;
+      width: 100%;
+    }
+  
+    .img-start img {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      border-radius: 18px;
+    }
+  
+    .img-start-title {
+      flex-direction: row;
+      align-items: center;
+      gap: 20px;
+      margin-top: 25px;
+      flex-wrap: wrap;
+    }
+  
+    .img-start-title-one {
+      font-size: 0.8rem;
+    }
+  
+    .img-start-title-one h1 {
+      font-size: 1.1rem;
+      padding-bottom: 8px;
+      margin-bottom: 16px;
+    }
+  
+    .img-start-title-one h3 {
+      font-size: 1.05rem;
+      padding-bottom: 30px;
+    }
+  
+    .img-start-title-button {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-bottom: 60px;
+    }
+  
+    .img-start-title-button button {
+      width: auto;
+      padding: 8px 18px;
+      border-radius: 10px;
+      border: 2px solid orange;
+    }
+  
+    .img-start-title-button img {
+      width: 30px;
+      height: 30px;
+    }
+  
+    .img-start-title-button p {
+      font-size: 1rem;
+    }
+  
+    .img-start-title-button .img-start-title-button-one,
+    .img-start-title-button .img-start-title-button-tow {
+      width: auto;
+      padding: 8px 14px;
+    }
+  
+    .title-location,
+    .title-phone {
+      width: 100%;
+      font-size: 0.8rem;
+    }
+  
+    .title-location h1,
+    .title-phone h1 {
+      font-size: 1.05rem;
+    }
+  
+    .title-location p,
+    .title-phone p {
+      font-size: 1rem;
+      padding-bottom: 22px;
+    }
+  
+    .price {
+      width: 100%;
+      max-width: 700px;
+      height: auto;
+      margin-left: 0;
+      border-radius: 18px;
+    }
+  
+    .img-start-title-price {
+      padding: 18px;
+    }
+  
+    .img-start-title-price h1 {
+      font-size: 1.05rem;
+      padding-bottom: 8px;
+      margin-bottom: 16px;
+    }
+  
+    .img-start-title-price h3 {
+      font-size: 1.05rem;
+      padding-bottom: 30px;
+    }
+  }
+  
