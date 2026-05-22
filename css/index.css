@@ -176,7 +176,7 @@ html {
 }
 
 /* ---------------------------------------------- */
-.hamburger-icon  {
+.hamburger-icon {
   width: 27px;
   display: none;
   cursor: pointer;
@@ -216,7 +216,6 @@ html {
 .hamburger-menu-items ul li:hover {
   background-color: rgba(255, 171, 3, 0.099);
   border-radius: 10px;
-  
 }
 .hamburger-menu-items div {
   height: 1px;
@@ -225,17 +224,17 @@ html {
   margin: 8px 0;
 }
 .show-hamburger-menu {
-  animation:  fadeindown 0.35s forwards;
+  animation: fadeindown 0.35s forwards;
 }
 
 @keyframes fadeindown {
   0% {
-      opacity: 0;
-      transform: translateX(100%);
+    opacity: 0;
+    transform: translateX(100%);
   }
   100% {
-      opacity: 1;
-      transform: translateX(0);
+    opacity: 1;
+    transform: translateX(0);
   }
 }
 
@@ -257,12 +256,12 @@ html {
   color: white;
   margin-right: 80px;
   line-height: 70px;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .landing-img h1 span {
   color: rgb(235, 163, 20);
-  font-size: 4.5rem;
+  font-size: 2.8rem;
   font-family: YekanBakhMedium;
   border-bottom: 5px solid rgb(235, 163, 20);
 }
@@ -281,7 +280,7 @@ html {
   height: 40px;
   padding: 10px;
   border-radius: 10px;
-  font-size: 25px;
+  font-size: 20px;
   font-family: YekanBakhMedium;
   background: rgba(255, 255, 255, 0.2);
   color: white;
@@ -300,7 +299,7 @@ html {
   border-radius: 10px;
   background-color: rgb(235, 163, 20);
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   font-family: YekanBakhMedium;
   cursor: pointer;
 }
@@ -358,14 +357,14 @@ html {
 }
 
 .imag-box img {
-  max-width: 80px;
+  max-width: 60px;
   height: auto;
   margin-bottom: 10px;
 }
 .imag-box p {
   font-family: YekanBakhHeavy;
   font-weight: 900;
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-align: center;
   color: #333;
 }
@@ -373,14 +372,15 @@ html {
   display: flex;
   flex-wrap: wrap;
 }
-
+/* -------------------------------------------------- */
 .footer {
   background-color: rgba(211, 143, 8, 0.346);
 }
 
 .footer-one {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 220px;
   align-items: center;
 }
 .part-phone {
@@ -414,15 +414,20 @@ html {
 }
 
 .footer-one {
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.border-button {
+  width: 60%;
   border-bottom: 2px solid #3333333c;
+  margin: auto;
 }
 
 .scpace-part-tow {
   display: flex;
-  justify-content: space-around;
-  margin-top: 50px;
+  justify-content: center;
+  gap: 10%;
+  margin-top: 20px;
 }
 
 .scpace-part-tow ul li {
@@ -469,7 +474,6 @@ html {
   display: grid;
   grid-template-columns: 1fr 2fr;
   align-items: start;
-  
 }
 
 .start {
@@ -536,6 +540,7 @@ html {
   top: 240px;
   left: 8%;
   font-family: iranyekanwebmedium;
+  font-size: 0.8rem;
 }
 .main-sandeli-img span {
   position: absolute;
@@ -548,6 +553,7 @@ html {
   top: 250px;
   left: 8%;
   font-family: iranyekanwebmedium;
+  font-size: 0.8rem;
 }
 
 .main-sandeli-title {
@@ -555,7 +561,7 @@ html {
 }
 
 .main-sandeli-title h1 {
-  font-size: 1.4rem;
+  font-size: 1rem;
   font-family: iranyekanwebmedium;
   font-weight: 700;
   padding-top: 20px;
@@ -569,7 +575,7 @@ html {
 
 .main-sandeli-title-three {
   font-family: iranyekanwebregular;
-  font-size: 1.2rem;
+  font-size: 0.9rem;
   font-weight: 100;
   display: flex;
   gap: 10px;
@@ -588,7 +594,7 @@ html {
 }
 .main-sandeli-price p {
   font-family: iranyekanwebregular;
-  font-size: 1.1rem;
+  font-size: 0.8rem;
 }
 .main-sandeli-price p span {
   text-decoration: line-through red;
@@ -598,6 +604,7 @@ html {
 .main-sandeli-price h3 {
   font-family: iranyekanwebmedium;
   font-weight: 600;
+  font-size: 0.8rem;
 }
 
 .main-sandeli-price-one {
@@ -608,7 +615,7 @@ html {
 
 .main-sandeli-price-tow {
   margin-left: 20px;
-  padding: 10px 15px;
+  padding: 8px 10px;
   border-radius: 20px;
   background-color: rgb(217, 6, 6);
   color: white;
@@ -623,6 +630,12 @@ html {
   border: 2px solid rgba(128, 128, 128, 0.332);
   border-radius: 20px;
   padding-bottom: 30px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 100px;
+  margin-bottom: 100px;
+  align-self: flex-start;
+  height: fit-content;
 }
 
 .filter-img {
@@ -634,11 +647,11 @@ html {
   margin-top: 10px;
 }
 .filter-img img {
-  width: 50px;
+  width: 40px;
   margin-right: 10px;
 }
 .filter-img h1 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-family: iranyekanwebmedium;
   font-weight: 500;
 }
@@ -670,7 +683,6 @@ html {
   margin-top: 8px;
   margin-bottom: 20px;
   display: none;
-  
 }
 .checkbox-menu {
   display: flex;
@@ -679,10 +691,10 @@ html {
   margin-top: 30px;
   margin-right: 80px;
 }
-.checkbox-menu input[type="checkbox"]{
+.checkbox-menu input[type="checkbox"] {
   width: 22px;
   height: 22px;
-  accent-color: rgba(254, 149, 37, 0.8);             
+  accent-color: rgba(254, 149, 37, 0.8);
 }
 .checkbox-menu p {
   font-size: 1.1rem;
@@ -696,12 +708,17 @@ html {
   transform: rotate(180deg);
 }
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(-5px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
-
-.dropdown-tow{
+.dropdown-tow {
   margin-top: 8px;
   margin-bottom: 20px;
   display: none;
@@ -711,8 +728,14 @@ html {
   animation: fadeIn 0.3s ease;
 }
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(-5px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .button-filter {
@@ -725,7 +748,7 @@ html {
   width: 80%;
   height: 48px;
   border: none;
-  background-color:  rgb(254, 149, 37);
+  background-color: rgb(254, 149, 37);
   color: #fff;
   font-size: 1.1rem;
   font-family: iranyekanwebmedium;
@@ -734,7 +757,7 @@ html {
 }
 
 .button-filter button:hover {
-  background-color:  rgb(194, 111, 21);
+  background-color: rgb(194, 111, 21);
 }
 
 .persian-calendar {
@@ -813,42 +836,42 @@ html {
   cursor: default;
 }
 
-
-
 /* ///////////////////////////////////////// */
 .pay {
-  margin-top: 50px;
+  margin-top: 30px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 200px;
   align-items: center;
   text-align: center;
   font-family: YekanBakhBold;
-  font-size: 1.3rem;
+  font-size: 1rem;
   padding-bottom: 70px;
   cursor: default;
   user-select: none;
 }
 .pay-one img {
-  width: 100px;
+  width: 80px;
   padding-bottom: 10px;
 }
 
 .pay-tow img {
-  width: 100px;
+  width: 80px;
   padding-bottom: 10px;
 }
 .pay-three img {
-  width: 100px;
+  width: 80px;
   padding-bottom: 10px;
 }
 .pay-four img {
-  width: 100px;
+  width: 80px;
   padding-bottom: 10px;
 }
 /* ///////////////////////////////////////// */
 .title-question {
   margin: 50px;
   font-family: iranyekanwebregular;
+  font-size: 1.4rem;
 }
 .accordion {
   max-width: 100%;
@@ -858,7 +881,7 @@ html {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   font-family: YekanBakhMedium;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 .accordion-item {
   border-bottom: 1px solid #eee;
@@ -879,7 +902,7 @@ html {
   transition: background-color 0.3s ease;
   position: relative;
   font-family: YekanBakhMedium;
-  font-size: 1.4rem;
+  font-size: 1.1rem;
 }
 .accordion-button::after {
   content: "+";
@@ -918,13 +941,11 @@ html {
 /* main end */
 
 @media (max-width: 767px) {
- 
-  .hamburger-icon  {
+  .hamburger-icon {
     display: block;
     position: absolute;
     right: 10px;
     bottom: 15px;
-
   }
   .navbar {
     position: relative;
@@ -1141,16 +1162,13 @@ html {
     }
   }
   .footer-one {
-    flex-direction: column;
-    align-items: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    display: block;
   }
   .part-phone,
   .part-logo,
   .part-socialMedia {
     margin-bottom: 20px;
-    width: 90%;
+    width: 100%;
     justify-content: center;
   }
   .part-socialMedia img {
@@ -1276,16 +1294,16 @@ html {
     margin-top: 50px;
   }
   .pay {
-    flex-direction: column; 
+    flex-direction: column;
     margin-top: 20px;
     padding-bottom: 30px;
-    justify-content: center; 
+    justify-content: center;
   }
   .pay-one,
   .pay-tow,
   .pay-three,
   .pay-four {
-      margin-bottom: 20px; 
+    margin-bottom: 20px;
   }
   .pay-one img,
   .pay-tow img,
@@ -1297,32 +1315,32 @@ html {
 
   .title-question {
     margin: 20px 10px;
-    font-size: 1.2rem; 
-    text-align: center; 
+    font-size: 1.2rem;
+    text-align: center;
   }
   .accordion {
-    margin: 20px 10px; 
+    margin: 20px 10px;
     font-size: 1.1rem;
-    border-radius: 5px; 
+    border-radius: 5px;
   }
   .accordion-button {
     padding: 15px 10px;
-    font-size: 1.2rem; 
+    font-size: 1.2rem;
   }
   .accordion-button::after {
-    font-size: 30px; 
+    font-size: 30px;
     left: 10px;
-    top: 45%; 
+    top: 45%;
   }
   .accordion-content p {
-    line-height: 2; 
+    line-height: 2;
     font-size: 1rem;
   }
   .accordion-item.active .accordion-content {
     padding: 10px 10px;
   }
   .accordion-item {
-      border-radius: 5px; 
+    border-radius: 5px;
   }
   /* ------------------------------------ */
   .date {
@@ -1379,8 +1397,8 @@ html {
   }
   .persian-calendar {
     width: 90%;
-    max-width: none; 
-    margin: 16px auto; 
+    max-width: none;
+    margin: 16px auto;
     padding: 12px;
     border-radius: 12px;
   }
@@ -1405,9 +1423,7 @@ html {
   }
 }
 
-
-  /* ------------------------------------ */
-
+/* ------------------------------------ */
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .navbar {
@@ -1571,7 +1587,7 @@ html {
   }
 
   .pay {
-    flex-direction: column; 
+    flex-direction: column;
     margin-top: 30px;
     padding-bottom: 40px;
   }
@@ -1579,16 +1595,16 @@ html {
   .pay-tow img,
   .pay-three img,
   .pay-four img {
-    width: 80px; 
+    width: 80px;
     padding-bottom: 8px;
   }
 
   .title-question {
-    margin: 30px 20px; 
-    font-size: 1.5rem; 
+    margin: 30px 20px;
+    font-size: 1.5rem;
   }
   .accordion {
-    margin: 30px 20px; 
+    margin: 30px 20px;
     font-size: 1.2rem;
   }
   .accordion-button {
@@ -1596,12 +1612,12 @@ html {
     font-size: 1.3rem;
   }
   .accordion-button::after {
-    font-size: 30px; 
+    font-size: 30px;
     left: 15px;
   }
   .accordion-content p {
-    line-height: 2.2; 
-    font-size: 1.1rem; 
+    line-height: 2.2;
+    font-size: 1.1rem;
   }
   .accordion-item.active .accordion-content {
     padding: 15px 15px;
@@ -1668,7 +1684,7 @@ html {
   }
   .persian-calendar {
     width: 85%;
-    max-width: 380px; 
+    max-width: 380px;
     margin: 24px auto;
     padding: 16px;
     border-radius: 14px;
@@ -1694,4 +1710,3 @@ html {
   }
   /* -------------------------------------------- */
 }
-
