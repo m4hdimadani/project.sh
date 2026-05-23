@@ -394,7 +394,7 @@ html {
 }
 .part-phone p {
   font-family: iranyekanwebmedium;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .part-logo {
@@ -458,7 +458,7 @@ html {
 .footer-end {
   text-align: center;
   font-family: iranyekanwebmedium;
-  font-size: 1rem;
+  font-size: .8rem;
   font-weight: 100;
   color: #33333398;
   margin-top: 100px;
@@ -1292,9 +1292,11 @@ html {
     width: 100%;
     margin: auto;
     margin-top: 50px;
+    position: relative; 
+    top: auto;
   }
   .pay {
-    flex-direction: column;
+    display: block;
     margin-top: 20px;
     padding-bottom: 30px;
     justify-content: center;

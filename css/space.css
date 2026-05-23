@@ -14,7 +14,7 @@
   padding-bottom: 30px;
 }
 .title p {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   font-family: YekanBakhMedium;
 }
 
@@ -76,6 +76,7 @@
   top: 250px;
   left: 8%;
   font-family: iranyekanwebmedium;
+  font-size: .8rem;
 }
 
 .main-sandeli-title {
@@ -83,7 +84,7 @@
 }
 
 .main-sandeli-title h1 {
-  font-size: 1.4rem;
+  font-size: 1.1rem;
   font-family: iranyekanwebmedium;
   font-weight: 700;
   padding-top: 20px;
@@ -97,7 +98,7 @@
 
 .main-sandeli-title-three {
   font-family: iranyekanwebregular;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 100;
   display: flex;
   gap: 10px;
@@ -116,7 +117,7 @@
 }
 .main-sandeli-price p {
   font-family: iranyekanwebregular;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 .main-sandeli-price p span {
   text-decoration: line-through red;
@@ -126,6 +127,7 @@
 .main-sandeli-price h3 {
   font-family: iranyekanwebmedium;
   font-weight: 600;
+  font-size: .9rem;
 }
 
 .main-sandeli-price-one {
@@ -178,14 +180,15 @@
   }
 
   .main-sandeli {
-    width: 100%;
+    width: 80%;
+    margin: auto;
   }
 
   .main-sandeli-img p,
   .main-sandeli-img span {
     top: auto;
-    bottom: 10px;
-    left: 10px;
+    bottom: 30px;
+    left: 30px;
     font-size: 0.75rem;
     padding: 6px 8px;
   }

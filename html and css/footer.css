@@ -5,7 +5,8 @@
 
 .footer-one {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 220px;
   align-items: center;
 }
 .part-phone {
@@ -15,11 +16,11 @@
   gap: 8px;
 }
 .part-phone img {
-  width: 50px;
+  width: 40px;
 }
 .part-phone p {
   font-family: iranyekanwebmedium;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .part-logo {
@@ -39,15 +40,20 @@
 }
 
 .footer-one {
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.border-button {
+  width: 60%;
   border-bottom: 2px solid #3333333c;
+  margin: auto;
 }
 
 .scpace-part-tow {
   display: flex;
-  justify-content: space-around;
-  margin-top: 50px;
+  justify-content: center;
+  gap: 10%;
+  margin-top: 20px;
 }
 
 .scpace-part-tow ul li {
@@ -78,7 +84,7 @@
 .footer-end {
   text-align: center;
   font-family: iranyekanwebmedium;
-  font-size: 1rem;
+  font-size: .8rem;
   font-weight: 100;
   color: #33333398;
   margin-top: 100px;
@@ -304,16 +310,13 @@
     }
   }
   .footer-one {
-    flex-direction: column;
-    align-items: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    display: block;
   }
   .part-phone,
   .part-logo,
   .part-socialMedia {
     margin-bottom: 20px;
-    width: 90%;
+    width: 100%;
     justify-content: center;
   }
   .part-socialMedia img {
