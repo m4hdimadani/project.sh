@@ -177,7 +177,7 @@ html {
 
 /* ---------------------------------------------- */
 .hamburger-icon {
-  width: 27px;
+  width: 20px;
   display: none;
   cursor: pointer;
 }
@@ -341,14 +341,13 @@ html {
   align-items: center;
 }
 .imag-box {
-  width: 100%;
+  width: 90%;
   text-align: center;
   background-color: #f9f9f9;
-  border-radius: 8px;
+  border-radius: 0px 50px;
   padding: 15px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  border: 5px solid rgb(211, 143, 8);
-  border-radius: 10px;
+  border: 5px solid rgba(229, 153, 0, 0.81);
   cursor: pointer;
 }
 .imag-box:hover {
@@ -940,7 +939,8 @@ html {
 
 /* main end */
 
-@media (max-width: 767px) {
+@media (min-width: 375px) and (max-width: 667px) {
+
   .hamburger-icon {
     display: block;
     position: absolute;
@@ -952,14 +952,14 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 15px;
-    height: 60px;
+    height: auto;
+    
   }
 
   .mobile-nav-container {
     display: flex;
     position: absolute;
-    right: 15px;
+    right:15px;
     bottom: 0px;
     cursor: pointer;
   }
@@ -994,11 +994,11 @@ html {
   .logo-title {
     z-index: 1000;
     position: absolute;
-    left: 50%;
-    bottom: 0px;
+    left: 55%;
+    bottom: 9px;
     transform: translateX(-50%);
     margin: 0;
-    font-size: 18px;
+    font-size: 13px;
   }
   .logo {
     width: 40px;
@@ -1006,77 +1006,20 @@ html {
   }
 
   .button-login {
-    width: 100%;
-    margin: 15px auto;
-    font-size: 1rem;
-  }
-
-  .slid-menu {
-    display: block;
-    position: fixed;
-    top: 0;
-    right: 0;
     width: 70%;
-    height: 100%;
-    background-color: #f8f9fa;
-    transform: translateX(100%);
-    transition: transform 0.3s ease-in-out;
-    z-index: 1000;
-    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
-    overflow-y: auto;
-    border-top-left-radius: 40px;
-    border-bottom-left-radius: 40px;
-  }
-  .slid-menu:active {
-    transform: translateX(0);
-  }
-  .slid-menu-content {
-    padding: 20px;
-  }
-  .slid-menu-content ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  .slid-menu-content ul li {
-    margin-bottom: 15px;
-    border-bottom: 1px solid #eee;
-    padding-bottom: 10px;
-  }
-  .side-menu-content ul li a {
-    text-decoration: none;
-    color: #333;
-    font-size: 16px;
-    display: block;
-    padding: 5px 0;
-  }
-  .side-menu-content ul li a:hover {
-    color: rgb(211, 143, 8);
-  }
-  .slid-menu-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 999;
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
-  }
-  .slid-menu-overlay.active {
-    opacity: 1;
-    visibility: visible;
+    margin: 15px;
+    margin-left: 30px;
+    font-size: .7rem;
   }
 
+ 
   .cross-icon {
     width: 100%;
     text-align: left;
     padding: 25px 0;
   }
   .cross-icon img {
-    width: 20px;
+    width: 10px;
     margin-left: 30px;
     cursor: pointer;
   }
@@ -1089,78 +1032,46 @@ html {
   }
 
   .landing-img h1 {
-    font-size: 1.1rem;
-    margin: 0 10px;
-    line-height: 35px;
+    font-size: 1rem;
+    margin: auto;
+    line-height: 28px;
     text-align: center;
   }
 
   .landing-img h1 span {
-    font-size: 2rem;
+    font-size: 1.3rem;
+  }
+  .search {
+    margin-left: 30px;
   }
 
   .search form {
     flex-direction: column;
-    gap: 10px;
-    width: 90%;
+    gap: 8px;
+    width: 95%;
     margin: 15px auto;
     align-items: center;
+    justify-content: center;
   }
 
   .search-input {
-    width: 100%;
-    height: 45px;
+    width: 110%;
+    height: 30px;
     font-size: 0.9rem;
   }
 
   .search-button {
     width: 100%;
-    height: 55px;
+    height: 50px;
+    margin-right: 15px;
     font-size: 0.9rem;
     padding: 10px;
   }
 
-  #hover-navbar {
-    width: 100%;
-    text-align: center;
-  }
-  #hover-navbar .list p {
-    font-size: 1.3rem;
-  }
-  .product-menu {
-    display: none !important;
-  }
-  .product-menu .show-menu {
-    flex-direction: column;
-    gap: 8px;
-    align-items: center;
-    position: static;
-    box-shadow: none;
-    background-color: transparent;
-    min-width: unset;
-    padding: 5px 0;
-    right: auto;
-    text-align: center;
-  }
-  .product-menu .show-menu a {
-    padding: 5px;
-    width: auto;
-    text-align: center;
+  .imag-box {
+    width: 50%;
   }
 
-  .show-hamburger-menu {
-    animation: fadeInDown 0.35s forwards;
-  }
-  @keyframes fadeInDown {
-    0% {
-      opacity: 0;
-      transform: translateX(-100%);
-    }
-    100% {
-      opacity: 1;
-      transform: translateX(0);
-    }
-  }
   .footer-one {
     display: block;
   }
@@ -1171,11 +1082,18 @@ html {
     width: 100%;
     justify-content: center;
   }
+  .part-logo img{
+    width: 40px;
+    height: 40px;
+  }
+  .part-logo h1 {
+    font-size: 1.1rem;
+  }
   .part-socialMedia img {
-    width: 50px;
+    width: 30px;
   }
   .part-phone p {
-    font-size: 1rem;
+    font-size: .8rem;
   }
   .scpace-part-tow {
     flex-direction: column;
@@ -1186,16 +1104,20 @@ html {
   .scpace-part-tow ul li {
     text-align: center;
     padding-left: 0;
+    font-size: .9rem;
   }
   .scpace-part-tow ul {
     padding-right: 0;
   }
+  .scpace-part-tow ul li {
+    font-size: .8rem;
+  }
   .footer-end {
     margin-top: 50px;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
   .footer-end span {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   .container-main {
@@ -1205,10 +1127,7 @@ html {
     align-items: center;
   }
 
-  .start {
-    margin: 20px 0 10px 0;
-    text-align: center;
-  }
+ 
 
   .title {
     width: 100%;
@@ -1225,18 +1144,24 @@ html {
   }
 
   .main {
-    margin: 20px 0;
-    width: 100%;
+    margin: 15px auto;
+    width: 90%;
   }
 
   .main-box {
     grid-template-columns: repeat(1, 1fr);
     gap: 15px;
-    width: 100%;
+    width: 90%;
+    margin: auto;
+    margin-right: 30px;
   }
 
   .main-sandeli {
-    width: 100%;
+    width: 90%;
+    display: block;
+  }
+  .main-sandeli-img img {
+    width: 90%;
   }
 
   .main-sandeli-img p,
@@ -1244,20 +1169,20 @@ html {
     top: auto;
     bottom: 10px;
     left: 10px;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     padding: 6px 8px;
   }
 
   .main-sandeli-title h1 {
-    font-size: 1.1rem;
+    font-size: .9rem;
   }
 
   .main-sandeli-title-tow {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 
   .main-sandeli-title-three {
-    font-size: 0.95rem;
+    font-size: 0.8rem;
     flex-wrap: wrap;
   }
 
@@ -1268,11 +1193,11 @@ html {
   }
 
   .main-sandeli-price p {
-    font-size: 0.95rem;
+    font-size: 0.8rem;
   }
 
   .main-sandeli-price h3 {
-    font-size: 1rem;
+    font-size: .8rem;
   }
 
   .main-sandeli-price-one {
@@ -1301,6 +1226,9 @@ html {
     padding-bottom: 30px;
     justify-content: center;
   }
+  .pay p {
+    font-size: .7rem;
+  }
   .pay-one,
   .pay-tow,
   .pay-three,
@@ -1311,23 +1239,23 @@ html {
   .pay-tow img,
   .pay-three img,
   .pay-four img {
-    width: 70px;
+    width: 50px;
     padding-bottom: 5px;
   }
 
   .title-question {
     margin: 20px 10px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-align: center;
   }
   .accordion {
     margin: 20px 10px;
-    font-size: 1.1rem;
+    font-size: 1rem;
     border-radius: 5px;
   }
   .accordion-button {
     padding: 15px 10px;
-    font-size: 1.2rem;
+    font-size: .8rem;
   }
   .accordion-button::after {
     font-size: 30px;
@@ -1336,7 +1264,7 @@ html {
   }
   .accordion-content p {
     line-height: 2;
-    font-size: 1rem;
+    font-size: .8rem;
   }
   .accordion-item.active .accordion-content {
     padding: 10px 10px;
@@ -1346,7 +1274,7 @@ html {
   }
   /* ------------------------------------ */
   .date {
-    width: 95%;
+    width: 60%;
     margin-top: 20px;
     margin-right: auto;
     margin-left: auto;
